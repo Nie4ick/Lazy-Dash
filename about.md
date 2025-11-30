@@ -1,6 +1,3 @@
-# LazyDash
-<img src="logo.png" width="150" alt="the mod's logo" />
-
 # Lazy Dash
 
 **There's no description, I'm very lazy**

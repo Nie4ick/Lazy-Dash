@@ -1,0 +1,115 @@
+{
+    "geode": "4.10.0",
+    "gd": {
+        "win": "2.2074",
+        "android": "2.2074"
+    },
+    "id": "nie4ick.lazy-dash",
+    "name": "Lazy Dash",
+    "version": "v1.0.0",
+    "developer": "Nie4ick",
+    "description": "There no description, I'm very lazy",
+	    "tags": [
+        "joke",
+		"gameplay"
+    ],
+    "settings": {
+        "enabled": {
+            "type": "bool",
+            "default": true,
+            "name": "Enable Lazy Dash",
+            "description": "Toggle the lazy player behavior on/off"
+        },
+        "event-frequency": {
+            "type": "int",
+            "default": 180,
+            "min": 60,
+            "max": 600,
+            "name": "Event Frequency",
+            "description": "Minimum frames between lazy events (60 = 1 second)"
+        },
+        "event-chance": {
+            "type": "int",
+            "default": 3,
+            "min": 1,
+            "max": 20,
+            "name": "Event Chance",
+            "description": "Base chance of lazy event per frame (higher = more frequent)"
+        },
+        "faint-weight": {
+            "type": "int",
+            "default": 10,
+            "min": 0,
+            "max": 100,
+            "name": "Faint Weight",
+            "description": "Weight for fainting/blocking controls (0 = disabled)"
+        },
+        "backwards-weight": {
+            "type": "int",
+            "default": 10,
+            "min": 0,
+            "max": 100,
+            "name": "Move Backwards Weight",
+            "description": "Weight for moving backwards (0 = disabled)"
+        },
+        "tired-weight": {
+            "type": "int",
+            "default": 10,
+            "min": 0,
+            "max": 100,
+            "name": "Tired Weight",
+            "description": "Weight for tiredness/slowdown (0 = disabled)"
+        },
+        "weak-jump-weight": {
+            "type": "int",
+            "default": 10,
+            "min": 0,
+            "max": 100,
+            "name": "Weak Jump Weight",
+            "description": "Weight for weak jumps (0 = disabled)"
+        },
+        "stutter-weight": {
+            "type": "int",
+            "default": 10,
+            "min": 0,
+            "max": 100,
+            "name": "Stutter Weight",
+            "description": "Weight for stuttering movement (0 = disabled)"
+        },
+        "sleep-weight": {
+            "type": "int",
+            "default": 10,
+            "min": 0,
+            "max": 100,
+            "name": "Deep Sleep Weight",
+            "description": "Weight for deep sleep mode (0 = disabled)"
+        },
+        "stumble-weight": {
+            "type": "int",
+            "default": 10,
+            "min": 0,
+            "max": 100,
+            "name": "Stumble Weight",
+            "description": "Weight for stumbling/falling (0 = disabled)"
+        },
+        "heavy-weight": {
+            "type": "int",
+            "default": 10,
+            "min": 0,
+            "max": 100,
+            "name": "Heavy Body Weight",
+            "description": "Weight for heavy body/gravity (0 = disabled)"
+        },
+        "distracted-weight": {
+            "type": "int",
+            "default": 10,
+            "min": 0,
+            "max": 100,
+            "name": "Distracted Weight",
+            "description": "Weight for distraction (0 = disabled)"
+        }
+    },
+    "dependencies": {
+        "geode.node-ids": ">=v1.20.0"
+    }
+}
