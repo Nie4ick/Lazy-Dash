@@ -1,10 +1,6 @@
 # LazyDash
 <img src="logo.png" width="150" alt="the mod's logo" />
 
-# Lazy Dash
-
-**There's no description, I'm very lazy**
-
 ## What is this?
 
 Lazy Dash makes your Geometry Dash player... well, lazy. Your cube will randomly experience various "lazy moments" that make playing the game much more challenging (and hilarious).
